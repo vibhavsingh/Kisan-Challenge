@@ -8,6 +8,7 @@ app.get("/",function(req,res){
     {firstname:"Rishabh",lastname:"Verma",contact:"9582824672"},
     {firstname:"Lovie",lastname:"Sharma",contact:"9953051465"},
     {firstname:"Palak",lastname:"Mehrotra",contact:"8368352195"},
+    {firstname:"Ravi",lastname:"Mehrotra",contact:"9368352195"}
     ];
     res.render("landing",{contacts:contacts});
 });
